@@ -222,40 +222,40 @@ aside {
     .page-title {
         font-size: 2.5rem;
     }
-
+    
     .page-header {
         flex-direction: column;
         align-items: center;
     }
 
-    /* HEADER */
+    /*HEADER*/
     .main-nav {
         font-size: 1rem;
         margin-top: 10px;
     }
-
+    
     .main-nav li {
         margin: 0 20px;
     }
 
-    /* HOME */
+    /*HOME*/
     .home-content {
         margin-top: 20%;
     }
 
-    /* NEWS */
+    /*NEWS*/
     .news-contents {
         flex-direction: column;
-    }
-
-    #news .page-title {
-        margin-top: 30px;
     }
 
     article,
 
     aside {
         width: 100%;
+    }
+
+    #news .page-title {
+        margin-top: 30px;
     }
 
     aside {
@@ -274,7 +274,7 @@ aside {
 
     .post-date span {
         font-size: 0.875rem;
-        padding-top: 2px;
+        padding: 2px;
     }
 
     .post-title {
@@ -287,7 +287,7 @@ aside {
     }
 
     .post-title,
-    
+
     .post-cat {
         margin-left: 80px;
     }
